@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+	<ImageView 
+	    android:layout_width="match_parent"
+	    android:layout_height="2dp"
+	    android:background="#4682B4"/>
+
+    <ImageView
+        android:layout_width="418dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#FFA54F"
+        android:src="@drawable/logo" />
+
+  <ImageView 
+	    android:layout_width="match_parent"
+	    android:layout_height="2dp"
+	    android:background="#ffffff"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp">
+
+        <Button
+            android:id="@+id/campusLife"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="@string/xuexiaoshenghuo"
+            android:textSize="20sp"
+            />
+
+        <Button
+            android:id="@+id/trafficAssist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="@string/chuxingzhinan"
+            android:textSize="20sp"/>
+    </RelativeLayout>
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_gravity="center_horizontal"        
+        android:text="@string/title"
+        android:textSize="40sp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <Button
+            android:id="@+id/scenery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="@string/youwannanchang"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/phoneAssist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="@string/haomabaishitong"
+            android:textSize="20sp"
+             />
+    </RelativeLayout>
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textSize="28sp"
+        android:layout_gravity="center_horizontal"        
+        android:text="@string/xiaoxun"/>
+
+</LinearLayout>

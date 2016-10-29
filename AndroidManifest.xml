@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.campusassist12"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.campusassist12.android.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.campusassist12.campuslife.CampusLifeActivity"
+            android:label="@string/title_activity_campus_life" >
+        </activity>
+        <activity
+            android:name="com.example.campusassist12.campuslife.CampusBuildActivity"
+            android:label="@string/title_activity_campus_build" >
+        </activity>
+        <activity
+            android:name="com.example.campusassist12.campuslife.CampusSceneryActivity"
+            android:label="@string/title_activity_campus_scenery" >
+        </activity>
+        <activity
+            android:name="com.example.campusassist12.campuslife.DetailInfoActivity"
+            android:label="@string/title_activity_detail_info" >
+        </activity>
+        <activity
+            android:name="com.example.campusassist12.campuslife.FreshAssistActivity"
+            android:label="@string/title_activity_fresh_assist" >
+        </activity>
+        <activity
+            android:name="com.example.campusassist12.chuxing.GongjiaoluxianActivity"
+            android:label="@string/title_activity_gongjiaoluxian" >
+        </activity>
+        <activity
+            android:name="com.example.campusassist12.chuxing.PositionActivity"
+            android:label="@string/title_activity_position" >
+        </activity>
+        <activity
+            android:name="com.example.campusassist12.chuxing.MyOverLayActivity"
+            android:label="@string/title_activity_my_over_lay" >
+        </activity>
+        <activity
+            android:name="com.example.campusassist12.chuxing.WodeweizhiActivity"
+            android:label="@string/title_activity_wodeweizhi" >
+        </activity>
+        <activity
+            android:name="com.example.campusassist12.chuxing.ChuxinzhinanActivity"
+            android:label="@string/title_activity_chuxinzhinan" >
+        </activity>
+        <activity
+            android:name="com.example.campusassist12.play.SceneryActivity"
+            android:label="@string/title_activity_scenery" >
+        </activity>
+        <activity
+            android:name="com.example.campusassist12.play.SceneryShowActivity"
+            android:label="@string/title_activity_scenery_show" >
+        </activity>
+        <activity
+            android:name="com.example.campusassist12.phone.PhoneListActivity"
+            android:label="@string/title_activity_phone_list" >
+        </activity>
+        <activity
+            android:name="com.example.campusassist12.phone.AddPhoneActivity"
+            android:label="@string/title_activity_add_phone" >
+        </activity>
+        <activity
+            android:name="com.example.campusassist12.phone.ResultActivity"
+            android:label="@string/title_activity_result" >
+        </activity>
+    </application>
+    <!-- 百度地图的屏幕支持 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" >
+    </uses-permission>
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true" />
+
+</manifest>
